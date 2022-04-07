@@ -1,0 +1,103 @@
+.product-card {
+  max-width: 310px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.product-card-img {
+  width: 250px;
+  height: 250px;
+  margin: 0px 40px 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-card-title-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.product-card-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1c1c27;
+}
+.product-card-prices {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 30px;
+}
+.product-card-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffa542;
+}
+.product-card-price-discount {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.1687px;
+  line-height: 23px;
+  color: #df6464;
+}
+.product-card-formerprice {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration-line: line-through;
+  color: #ffce7f;
+}
+.product-card-price-percent {
+  margin-left: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2934px;
+  line-height: 20px;
+  color: #df6464;
+}
+.product-card-rate-buy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-card-buy {
+  display: inline-flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.product-card-rate {
+  display: flex;
+  align-items: center;
+}
+.product-card-rate-number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #838383;
+  margin-left: 10px;
+}

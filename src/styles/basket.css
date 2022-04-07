@@ -1,0 +1,101 @@
+.basket-page {
+  min-height: 500px;
+  margin: 30px 0px 30px 0px;
+}
+.basket-card {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 630px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.basket-card-fist-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.basket-card-remove {
+  margin: 10px;
+  cursor: pointer;
+}
+.basket-card-product-img-block {
+  width: 150px;
+}
+.basket-card-product-img {
+  width: 140px;
+}
+.basket-card-item {
+  display: flex;
+}
+.basket-card-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1c1c27;
+}
+.basket-card-item {
+  display: flex;
+  align-items: center;
+}
+.basket-card-add-product {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.basket-card-price_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.basket-card-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+  margin-top: 10px;
+}
+.basket-card-minus,
+.basket-card-plus {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ffce7f;
+  border: none;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.basket-card-product-count {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+.basket-card-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.basket-card-all-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #1c1c27;
+}
+.basket-page-orders {
+  display: flex;
+  justify-content: space-between;
+}
